@@ -1,0 +1,141 @@
+//21. Leer tres calificaciones de un alumno, calcular el promedio y decir si está exento o en ordinario, considerando >= 9 está exento.
+/*
+{exento	
+let calificauno = ("10")
+let calificados = ("10")
+let calificatres = ("9")
+let prom = (calificauno+calificados+calificatres)/3
+if(promedio>= 9)}{
+ console.log("estas exento")
+}else{
+  console.log("reprobaste")
+}
+*/
+//22. Leer 3 calificaciones de un alumno, calcular el promedio y decir si está exento, en nordinario o en extra, considerando >9 exento, >6.0 y menor a 9.0 ordinario y <6.0 extra.
+/*
+let calu = prompt("10")
+let cald = prompt("9")
+let calt = prompt("8")
+let promedio = (calu+cald+calt)/3
+if(promedio>= 9){
+ console.log("estas exento")
+}else if (promedio>6<9){
+  console.log("eres ordinario")
+}else{
+  console.log("reprobaste")
+}*/
+//23. Leer un número y decir si es positivo, negativo o cero.
+/*
+{
+let num = promt("0")
+if(num<0){
+ console.log("es positivo")
+}else if(num=0){
+ console.log("es cero")
+}else{
+ console.log("es negativo")}  
+*/
+
+//24. Leer un número entre uno y siete y escribir: lunes si eligió 1, martes si eligió 2, y así sucesivamente; si el número leído no está entre 1 y 7, el programa debe decir “Error de opción”.
+/*
+let dia = prompt("ingresa un numero del 1 al 7")
+if(dia=1){
+  console.log("lunes")
+}else if(dia=2)
+{console.log("martes")
+}else if(dia=3)
+{console.log("miercoles")
+}else if(dia=4)
+{console.log("jueves")
+}else if(dia=5)
+{console.log("viernes")
+}else if(dia=6)
+{console.log("sabado")
+}else if(dia=7)
+{console.log("domingo")
+}else
+
+*/
+//25. Diseñar un programa que pida 3 números; si el primero es negativo, debe imprimir el producto de los 3; en caso de ser positivo o cero, realizar la suma.
+/*
+let numuno = prompt("ingresa el primer numero")
+let numdos = prompt("ingresa el segundo numero")
+let numtres = prompt("ingresa el tercer numero")
+if(numuno >-1){
+  let suma = numuno+numdos+numtres
+  console.log(suma)
+}else if (numuno <-1){
+  let mult = numuno*numdos*numtres
+  console.log(mult)
+}
+*/
+//26. Escribir un programa que lea 5 calificaciones, calcule su promedio e indique si el alumno fue aprobado.
+/*
+let numu = prompt("ingrese la calificación")
+let numd = prompt("ingrese la calificación")
+let numt = prompt("ingrese la calificación")
+let numc = prompt("ingrese la calificación")
+let nums = prompt("ingrese la calificación")
+let promedio = (numu*numd*numt*numc*nums)/5
+if(promedio>=6){
+  console.log("aprobaste")
+}else{
+  console.log("reprobaste")
+
+*/
+//27. Leer las longitudes de los lados de un triángulo y determinar si es equilátero, isósceles o escaleno.
+/*
+let luno = prompt("ingresa el primer lado")
+let ldos = prompt("ingresa el segundo lado")
+let ltres = prompt("ingresa el tercer lado")
+if(luno=ldos =ltres){
+  console.log("es un triangulo equilatero")
+}else if(luno=ldos, luno=ldos){
+  console.log("es un triangulo isosceles")
+}else{
+  console.log("es un triangulo escaleno")
+
+*/
+//28. Leer 3 números y ordenarlos de mayor a menor.
+/*
+let num1 = prompt("dame un numero")
+let num2 = prompt("dame un numero")
+let num3 = prompt("dame un numero")
+if(num1<num2 num2<num3){
+  console.log(`${num3},${num2},${num1}`)
+}else if(num1>num2 num2>num3){
+  console.log(`${num1},${num2},${num3}`)
+}else if(num1<num2 num2>num3){
+  console.log(`${num2},${num1},${num3}`)
+}else if(num1>num2 num3<num4){
+  console.log(`${num1},${num3},${num2},`)
+*/
+//29. Leer un número entre 1 y 12 y escribir enero si eligió 1, febrero si eligió 2, y así sucesivamente; si el número leído no está entre 1 y 12, debe decir “Error de opción”.
+
+/*
+let mes = prompt("ingresa un numero del 1 al 12")
+if(mes=1){
+  console.log("enero")
+}else if(mes=2){
+  console.log("febrero")
+}else if(mes=3){
+  console.log("marzo")
+}else if(mes=4){
+  console.log("abril")
+}else if(mes=5){
+  console.log("mayo")
+}else if(mes=6){
+  console.log("junio")
+}else if(mes=7){
+  console.log("julio")
+}else if(mes=8){
+  console.log("agosto")
+}else if(mes=9){
+  console.log("septiembre")
+}else if(mes=10){
+  console.log("octubre")
+}else if(mes=11){
+  console.log("noviembre")
+}else if(mes=12){
+  console.log("diciembre")}
+*/
